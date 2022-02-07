@@ -4,6 +4,17 @@ Techeria is an ecommerce website that displays numerous technology products (pho
 computers, tablets, TVs, etc.) to be sold. Users can select items to add to their cart and buy them
 through a secure payment gateway.
 
+# Deployed Website:
+https://techeria.herokuapp.com/  
+
+# Demo Video:
+https://www.youtube.com/watch?v=wm5OuwJVCeA
+
+
+## Documentations:
+https://github.com/lianahasan/Techeria/wiki
+
+# Running the project locally:
 ## Running the project (Not making changes to the database):
 1. Open PHPMyAdmin (http://localhost/phpmyadmin) or MySQL Workbench
 2. Import techeria_db.sql (creates database, inserts tables)
@@ -16,7 +27,6 @@ python manage.py migrate
 ``` 
 python manage.py runserver
 ```
-
 ## Running the project + Making changes to the database:
 1. Open PHPMyAdmin (http://localhost/phpmyadmin) or MySQL Workbench
 2. Import techeria_db.sql (creates database, inserts table)
@@ -39,3 +49,8 @@ python manage.py inspectdb > models.py
 python manage.py runserver
 ```
 12. To push changes with the updated database, export the database from PHPMyAdmin, and replace the techeria_db.sql with the updated version.
+
+## LOGO
+
+![LogoTECHERIA](https://user-images.githubusercontent.com/91642860/138016174-48549324-1834-46dd-8a56-82c6f16791a2.png)
+
